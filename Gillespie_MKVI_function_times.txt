@@ -1,0 +1,139 @@
+
+
+         90002007 function calls (90001931 primitive calls) in 582.596 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1  419.455  419.455  544.524  544.524 <string>:113(Evolution)
+ 90000021  123.030    0.000  123.030    0.000 {built-in method numpy.array}
+        1   36.269   36.269   36.269   36.269 {method 'sort' of 'numpy.ndarray' objects}
+        1    1.750    1.750    1.762    1.762 {method 'poisson' of 'mtrand.RandomState' objects}
+        1    0.624    0.624    0.624    0.624 <string>:25(Vectorization)
+        5    0.260    0.052    0.260    0.052 {method 'flatten' of 'numpy.ndarray' objects}
+        1    0.228    0.228   36.592   36.592 arraysetops.py:299(_unique1d)
+        1    0.226    0.226    0.226    0.226 {method 'randint' of 'mtrand.RandomState' objects}
+        4    0.216    0.054    0.216    0.054 {built-in method numpy.where}
+       27    0.202    0.007    0.202    0.007 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.147    0.147    0.373    0.373 <string>:12(Generate_Population)
+        1    0.132    0.132  582.594  582.594 <string>:1(<module>)
+        1    0.018    0.018   36.903   36.903 <string>:36(update_data)
+        1    0.013    0.013   36.885   36.885 arraysetops.py:151(unique)
+        2    0.011    0.006    0.011    0.006 {method 'choice' of 'mtrand.RandomState' objects}
+        1    0.005    0.005    0.005    0.005 {method 'nonzero' of 'numpy.ndarray' objects}
+        1    0.003    0.003  582.596  582.596 {built-in method builtins.exec}
+       61    0.002    0.000    0.002    0.000 socket.py:337(send)
+       61    0.000    0.000    0.002    0.000 iostream.py:195(schedule)
+       25    0.000    0.000    0.202    0.008 fromnumeric.py:69(_wrapreduction)
+       13    0.000    0.000    0.004    0.000 {built-in method builtins.print}
+     68/2    0.000    0.000    0.000    0.000 arrayprint.py:716(recurser)
+       54    0.000    0.000    0.003    0.000 iostream.py:382(write)
+        2    0.000    0.000    0.000    0.000 linecache.py:37(getlines)
+        8    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+        1    0.000    0.000    0.000    0.000 arrayprint.py:861(fillFormat)
+       61    0.000    0.000    0.000    0.000 threading.py:1080(is_alive)
+        1    0.000    0.000    0.000    0.000 function_base.py:1149(diff)
+        5    0.000    0.000    0.000    0.000 {built-in method numpy.concatenate}
+       36    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.dragon4_scientific}
+       11    0.000    0.000    0.153    0.014 fromnumeric.py:1966(sum)
+        2    0.000    0.000    0.001    0.001 arrayprint.py:518(array2string)
+       61    0.000    0.000    0.000    0.000 iostream.py:93(_event_pipe)
+       54    0.000    0.000    0.000    0.000 iostream.py:307(_is_master_process)
+       60    0.000    0.000    0.000    0.000 arrayprint.py:693(_extendLine)
+     12/2    0.000    0.000    0.000    0.000 arrayprint.py:324(_leading_trailing)
+       61    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+       18    0.000    0.000    0.000    0.000 arrayprint.py:945(__call__)
+       61    0.000    0.000    0.000    0.000 threading.py:1038(_wait_for_tstate_lock)
+      451    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 {method 'view' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.001    0.001 arrayprint.py:480(_array2string)
+        2    0.000    0.000    0.000    0.000 nanfunctions.py:201(nanmin)
+        2    0.000    0.000    0.001    0.000 arrayprint.py:411(_get_format_function)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:69(_make_options_dict)
+       54    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        3    0.000    0.000    0.033    0.011 fromnumeric.py:2397(amax)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        3    0.000    0.000    0.005    0.002 fromnumeric.py:54(_wrapfunc)
+       76    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 arrayprint.py:1136(__init__)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:358(_get_formatdict)
+        2    0.000    0.000    0.001    0.001 arrayprint.py:463(wrapper)
+       61    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        3    0.000    0.000    0.012    0.004 fromnumeric.py:2083(any)
+       54    0.000    0.000    0.000    0.000 iostream.py:320(_schedule_flush)
+        2    0.000    0.000    0.001    0.001 arrayprint.py:1499(_array_str_implementation)
+       25    0.000    0.000    0.000    0.000 fromnumeric.py:70(<dictcomp>)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        4    0.000    0.000    0.004    0.001 fromnumeric.py:2171(all)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+        1    0.000    0.000    0.000    0.000 {method 'exponential' of 'mtrand.RandomState' objects}
+        1    0.000    0.000    0.000    0.000 arrayprint.py:367(<lambda>)
+        1    0.000    0.000    0.005    0.005 fromnumeric.py:1694(nonzero)
+        1    0.000    0.000    0.000    0.000 arraysetops.py:287(reshape_uniq)
+       61    0.000    0.000    0.000    0.000 threading.py:507(is_set)
+        4    0.000    0.000    0.000    0.000 getlimits.py:365(__new__)
+       36    0.000    0.000    0.000    0.000 arrayprint.py:1144(__call__)
+        2    0.000    0.000    0.000    0.000 warnings.py:35(_formatwarnmsg_impl)
+       19    0.000    0.000    0.000    0.000 arrayprint.py:886(<genexpr>)
+        2    0.000    0.000    0.000    0.000 numeric.py:2656(seterr)
+        1    0.000    0.000    0.033    0.033 <string>:20(Generate_Data)
+        1    0.000    0.000    0.000    0.000 nanfunctions.py:43(_replace_nan)
+       10    0.000    0.000    0.000    0.000 index_tricks.py:729(__getitem__)
+        1    0.000    0.000    0.000    0.000 arrayprint.py:834(__init__)
+        2    0.000    0.000    0.000    0.000 numeric.py:469(asarray)
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       27    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 arraysetops.py:278(<listcomp>)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        3    0.000    0.000    0.000    0.000 numeric.py:541(asanyarray)
+        2    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.generic' objects}
+        3    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 numeric.py:2758(geterr)
+       18    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 _internal.py:468(_view_is_safe)
+        2    0.000    0.000    0.000    0.000 fromnumeric.py:541(swapaxes)
+       19    0.000    0.000    0.000    0.000 arrayprint.py:889(<genexpr>)
+        1    0.000    0.000    0.000    0.000 numeric.py:3054(__init__)
+        4    0.000    0.000    0.000    0.000 numerictypes.py:293(issubclass_)
+        2    0.000    0.000    0.000    0.000 warnings.py:20(_showwarnmsg_impl)
+        1    0.000    0.000    0.000    0.000 arrayprint.py:366(<lambda>)
+        2    0.000    0.000    0.000    0.000 arrayprint.py:707(_formatArray)
+        2    0.000    0.000    0.000    0.000 numerictypes.py:365(issubdtype)
+        2    0.000    0.000    0.000    0.000 warnings.py:419(__init__)
+       19    0.000    0.000    0.000    0.000 arrayprint.py:890(<genexpr>)
+        4    0.000    0.000    0.000    0.000 {built-in method time.perf_counter}
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:2512(amin)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:2664(prod)
+       19    0.000    0.000    0.000    0.000 arrayprint.py:894(<genexpr>)
+        2    0.000    0.000    0.000    0.000 linecache.py:15(getline)
+       18    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       19    0.000    0.000    0.000    0.000 arrayprint.py:891(<genexpr>)
+        1    0.000    0.000    0.280    0.280 numeric.py:594(ascontiguousarray)
+        2    0.000    0.000    0.000    0.000 warnings.py:96(_showwarnmsg)
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 {method 'swapaxes' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.copyto}
+        1    0.000    0.000    0.000    0.000 numeric.py:3058(__enter__)
+        7    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.seterrobj}
+        2    0.000    0.000    0.000    0.000 _methods.py:42(_any)
+        2    0.000    0.000    0.000    0.000 warnings.py:117(_formatwarnmsg)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+       14    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        3    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 arrayprint.py:74(<dictcomp>)
+       19    0.000    0.000    0.000    0.000 arrayprint.py:901(<genexpr>)
+        1    0.000    0.000    0.000    0.000 numeric.py:3063(__exit__)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        2    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.normalize_axis_index}
+        1    0.000    0.000    0.000    0.000 arrayprint.py:825(_none_or_positive_arg)
+        1    0.000    0.000    0.000    0.000 arraysetops.py:138(_unpack_tuple)
+        4    0.000    0.000    0.000    0.000 {built-in method numpy.geterrobj}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
